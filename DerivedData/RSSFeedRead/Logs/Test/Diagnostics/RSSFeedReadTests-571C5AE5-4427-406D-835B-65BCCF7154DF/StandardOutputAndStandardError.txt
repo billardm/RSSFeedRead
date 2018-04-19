@@ -1,0 +1,14 @@
+objc[37233]: Class RSSRequest is implemented in both /Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Bundle/Application/516BDA01-B606-4679-B380-FAA41DDFF3D2/RSSFeedRead.app/RSSFeedRead (0x10422d770) and /Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator/RSSFeedRead.app/PlugIns/RSSFeedReadTests.xctest/RSSFeedReadTests (0x11cc41100). One of the two will be used. Which one is undefined.
+2018-04-19 15:22:53.813302-0700 RSSFeedRead[37233:2693692] +[CATransaction synchronize] called within transaction
+2018-04-19 15:22:54.065913-0700 RSSFeedRead[37233:2693692] Documents Directory: file:///Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Data/Application/F997A060-D868-410D-BE08-CFDF19363620/Documents/
+Test Suite 'Selected tests' started at 2018-04-19 15:22:54.408
+Test Suite 'RSSFeedReadTests.xctest' started at 2018-04-19 15:22:54.409
+Test Suite 'RSSFeedReadTests' started at 2018-04-19 15:22:54.409
+Test Case '-[RSSFeedReadTests testRSSItemParsing]' started.
+Test Case '-[RSSFeedReadTests testRSSItemParsing]' passed (0.001 seconds).
+Test Suite 'RSSFeedReadTests' passed at 2018-04-19 15:22:54.411.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'RSSFeedReadTests.xctest' passed at 2018-04-19 15:22:54.411.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.003) seconds
+Test Suite 'Selected tests' passed at 2018-04-19 15:22:54.412.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.004) seconds

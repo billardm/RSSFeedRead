@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i7</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2500</integer>
+			<key>Identifier</key>
+			<string>A7518B95-96DC-5E50-B81A-AD160D6ECD77</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>8</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro11,5</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-15-retina-display</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.13.4</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.13.4 (17E199)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>macOS</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>16384</integer>
+		</dict>
+		<key>Name</key>
+		<string>iPhone 8 Plus</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>Identifier</key>
+			<string>532C83B0-CE5C-4898-BDFE-79201653112A</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>ModelCode</key>
+			<string>iPhone10,5</string>
+			<key>ModelName</key>
+			<string>iPhone 8 Plus</string>
+			<key>ModelUTI</key>
+			<string>com.apple.iphone-8-plus-2</string>
+			<key>Name</key>
+			<string>iPhone 8 Plus</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>11.3</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>11.3 (15E217)</string>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+				<key>Name</key>
+				<string>iOS Simulator</string>
+			</dict>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>iphonesimulator11.3</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>Simulator - iOS 11.3</string>
+			<key>OperatingSystemVersion</key>
+			<string>11.3</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>DiagnosticsDirectory</key>
+			<string>RSSFeedReadTests-571C5AE5-4427-406D-835B-65BCCF7154DF</string>
+			<key>ProjectPath</key>
+			<string>RSSFeedRead.xcodeproj</string>
+			<key>TargetName</key>
+			<string>RSSFeedReadTests</string>
+			<key>TestName</key>
+			<string>RSSFeedReadTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>0.004259943962097168</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>0.0027489662170410156</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>0.0018949508666992188</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>Duration</key>
+											<real>0.0010889768600463867</real>
+											<key>TestIdentifier</key>
+											<string>RSSFeedReadTests/testRSSItemParsing</string>
+											<key>TestName</key>
+											<string>testRSSItemParsing</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>D84C3006-CE4F-4E27-ABCE-DF562EC326C7</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>RSSFeedReadTests</string>
+									<key>TestName</key>
+									<string>RSSFeedReadTests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>RSSFeedReadTests.xctest</string>
+							<key>TestName</key>
+							<string>RSSFeedReadTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>Selected tests</string>
+					<key>TestName</key>
+					<string>Selected tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

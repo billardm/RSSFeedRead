@@ -1,0 +1,7 @@
+objc[37165]: Class RSSRequest is implemented in both /Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Bundle/Application/28526279-22D8-4958-BFD3-EA3BAA689322/RSSFeedRead.app/RSSFeedRead (0x109afb770) and /Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator/RSSFeedRead.app/PlugIns/RSSFeedReadTests.xctest/RSSFeedReadTests (0x12250e0a0). One of the two will be used. Which one is undefined.
+2018-04-19 15:18:33.360265-0700 RSSFeedRead[37165:2685663] +[CATransaction synchronize] called within transaction
+2018-04-19 15:18:33.685370-0700 RSSFeedRead[37165:2685663] Documents Directory: file:///Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Data/Application/70C98609-548D-4B0A-AA8F-FCE9F0CF3BCC/Documents/
+Test Suite 'Selected tests' started at 2018-04-19 15:18:34.012
+Test Suite 'RSSFeedReadTests.xctest' started at 2018-04-19 15:18:34.013
+Test Suite 'RSSFeedReadTests' started at 2018-04-19 15:18:34.014
+Test Case '-[RSSFeedReadTests testRSSItemParsing]' started.

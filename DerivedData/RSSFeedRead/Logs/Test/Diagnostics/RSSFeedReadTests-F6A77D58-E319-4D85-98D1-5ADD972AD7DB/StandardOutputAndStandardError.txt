@@ -1,0 +1,26 @@
+objc[37129]: Class RSSRequest is implemented in both /Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Bundle/Application/2607F99D-8B10-476A-BC13-DD292E55E8AD/RSSFeedRead.app/RSSFeedRead (0x10ba97770) and /Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator/RSSFeedRead.app/PlugIns/RSSFeedReadTests.xctest/RSSFeedReadTests (0x1244aa098). One of the two will be used. Which one is undefined.
+2018-04-19 15:15:56.999098-0700 RSSFeedRead[37129:2680682] +[CATransaction synchronize] called within transaction
+2018-04-19 15:15:57.333135-0700 RSSFeedRead[37129:2680682] Documents Directory: file:///Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Data/Application/D400F036-73D3-49DD-BA64-A92D2DCF935A/Documents/
+2018-04-19 15:15:57.497721-0700 RSSFeedRead[37129:2680797] Error while trying to download an image: Error Domain=NSURLErrorDomain Code=-999 "cancelled" UserInfo={NSErrorFailingURLStringKey=https://www.personalcapital.com/blog/wp-content/uploads/2017/02/180214_blog_love.jpg, NSLocalizedDescription=cancelled, NSErrorFailingURLKey=https://www.personalcapital.com/blog/wp-content/uploads/2017/02/180214_blog_love.jpg}
+2018-04-19 15:15:57.497925-0700 RSSFeedRead[37129:2680798] Error while trying to download an image: Error Domain=NSURLErrorDomain Code=-999 "cancelled" UserInfo={NSErrorFailingURLStringKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180418_Blog_Crypto.jpg, NSLocalizedDescription=cancelled, NSErrorFailingURLKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180418_Blog_Crypto.jpg}
+2018-04-19 15:15:57.498049-0700 RSSFeedRead[37129:2680798] Error while trying to download an image: Error Domain=NSURLErrorDomain Code=-999 "cancelled" UserInfo={NSErrorFailingURLStringKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180409_Blog_Relationship.jpg, NSLocalizedDescription=cancelled, NSErrorFailingURLKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180409_Blog_Relationship.jpg}
+2018-04-19 15:15:57.498206-0700 RSSFeedRead[37129:2680798] Error while trying to download an image: Error Domain=NSURLErrorDomain Code=-999 "cancelled" UserInfo={NSErrorFailingURLStringKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180406_Blog_Report.jpg, NSLocalizedDescription=cancelled, NSErrorFailingURLKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180406_Blog_Report.jpg}
+2018-04-19 15:15:57.498464-0700 RSSFeedRead[37129:2680798] Error while trying to download an image: Error Domain=NSURLErrorDomain Code=-999 "cancelled" UserInfo={NSErrorFailingURLStringKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180417_Blog_Legacy.jpg, NSLocalizedDescription=cancelled, NSErrorFailingURLKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180417_Blog_Legacy.jpg}
+2018-04-19 15:15:57.498924-0700 RSSFeedRead[37129:2680811] Task <50699A4F-2DCD-40F8-AA71-B1F28A9073AB>.<3> finished with error - code: -999
+2018-04-19 15:15:57.499060-0700 RSSFeedRead[37129:2680811] Task <1F8CF9FE-6510-480B-8B3C-E30676FE9FA3>.<2> finished with error - code: -999
+2018-04-19 15:15:57.499268-0700 RSSFeedRead[37129:2680811] Task <785174C8-C797-4AC6-99CE-79482667CA90>.<5> finished with error - code: -999
+2018-04-19 15:15:57.499441-0700 RSSFeedRead[37129:2680811] Task <58AA9EDA-EBBE-498A-8F6B-EEF0E1DE18EC>.<1> finished with error - code: -999
+2018-04-19 15:15:57.499762-0700 RSSFeedRead[37129:2680811] Task <7011E516-C46F-4081-8123-EB318704F90E>.<4> finished with error - code: -999
+2018-04-19 15:15:57.503038-0700 RSSFeedRead[37129:2680798] Task <58AA9EDA-EBBE-498A-8F6B-EEF0E1DE18EC>.<1> HTTP load failed (error code: -999 [1:89])
+Test Suite 'Selected tests' started at 2018-04-19 15:15:57.730
+Test Suite 'RSSFeedReadTests.xctest' started at 2018-04-19 15:15:57.731
+Test Suite 'RSSFeedReadTests' started at 2018-04-19 15:15:57.731
+Test Case '-[RSSFeedReadTests testRSSItemParsing]' started.
+/Users/michael/Projects/RSSFeedRead/RSSFeedReadTests/RSSFeedReadTests.m:95: error: -[RSSFeedReadTests testRSSItemParsing] : (([value isEqualToString:kLinkTest]) is true) failed
+Test Case '-[RSSFeedReadTests testRSSItemParsing]' failed (0.003 seconds).
+Test Suite 'RSSFeedReadTests' failed at 2018-04-19 15:15:57.734.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'RSSFeedReadTests.xctest' failed at 2018-04-19 15:15:57.735.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.003 (0.004) seconds
+Test Suite 'Selected tests' failed at 2018-04-19 15:15:57.736.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.003 (0.006) seconds

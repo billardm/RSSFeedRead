@@ -1,0 +1,367 @@
+15:15:54.745 Xcode[7514:514069] Beginning test session RSSFeedReadTests-DF856911-97DC-4691-93A3-FF0A5739F389 at 2018-04-19 15:15:54.745 with Xcode 9E145 on target <DVTiPhoneSimulator: 0x7ff8fd806d00> {
+		SimDevice: iPhone 8 Plus (532C83B0-CE5C-4898-BDFE-79201653112A, iOS 11.3, Booted)
+} (11.3 (15E217))
+15:15:54.745 Xcode[7514:514069] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+15:15:54.746 Xcode[7514:514069] Test standard output and standard error is at /var/folders/sx/d_s7q1vj0db2t8jgx8w2xq8m0000gn/T/com.apple.dt.XCTest/IDETestRunSession-E23DAF6A-7CB8-4446-B6FD-94520970B612/RSSFeedReadTests-F6A77D58-E319-4D85-98D1-5ADD972AD7DB/StandardOutputAndStandardError.txt
+15:15:54.746 Xcode[7514:514069] Simulator 532C83B0-CE5C-4898-BDFE-79201653112A was claimed by TestSessionClaim_IDETestRunSession-E23DAF6A-7CB8-4446-B6FD-94520970B612
+15:15:55.170 Xcode[7514:514069] Launch session started.
+15:15:55.191 Xcode[7514:514069] Setting up test runner session
+15:15:55.191 Xcode[7514:2680443] Sim iPhone 8 Plus: Unregistering for sim device notification with token 399
+15:15:55.191 Xcode[7514:2680443] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+15:15:55.192 Xcode[7514:2680443] Sim iPhone 8 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.ThtfNpkxpK/com.apple.testmanagerd.unix-domain.socket
+15:15:55.192 Xcode[7514:2680443] Validating test connection socket path (/private/tmp/com.apple.launchd.ThtfNpkxpK/com.apple.testmanagerd.unix-domain.socket)
+15:15:55.192 Xcode[7514:2680443] Constructing transport for test connection socket
+15:15:55.192 Xcode[7514:2680443] Connected socket 103 to testmanagerd for Sim iPhone 8 Plus
+15:15:55.192 Xcode[7514:2680444] Received connection for test runner session
+15:15:55.192 Xcode[7514:2680444] Listening for proxy connection request from the test bundle
+15:15:55.193 Xcode[7514:2680444] Initiating session with identifier: DF856911-97DC-4691-93A3-FF0A5739F389
+15:15:55.194 Xcode[7514:2680447] Got reply to session initiation request with identifier DF856911-97DC-4691-93A3-FF0A5739F389 (result:error): 25: (null)
+15:15:55.206 Xcode[7514:514069] Received Ready from iOSSimulator
+15:15:55.206 Xcode[7514:514069] Sending notification: NSConcreteNotification 0x7ff8d63d76d0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "532C83B0-CE5C-4898-BDFE-79201653112A";
+}}
+15:15:55.207 Xcode[7514:2680440] Simulator 532C83B0-CE5C-4898-BDFE-79201653112A was claimed by LaunchSessionClaim_0x7ff8d6aacd60
+15:15:55.215 Xcode[7514:514069] Test runner session acquired connection.
+15:15:55.215 Xcode[7514:514069] Waiting for test process to launch.
+15:15:55.220 Xcode[7514:514069] Adding console adaptor <IDEConsoleAdaptor: 0x7ff901748b00 'target' stdin: <IDEMasterPtyFileHandle: 0x7ff8d6a1cd00 MasterFH: <NSConcreteFileHandle: 0x7ff8e90a64b0> 104 SlaveFH: <NSConcreteFileHandle: 0x7ff8d6aa3350> 111> 104 stdout: <IDEMasterPtyFileHandle: 0x7ff8d6a1cd00 MasterFH: <NSConcreteFileHandle: 0x7ff8e90a64b0> 104 SlaveFH: <NSConcreteFileHandle: 0x7ff8d6aa3350> 111> 104 stderr: (null) 0> for test session DF856911-97DC-4691-93A3-FF0A5739F389.
+15:15:55.227 Xcode[7514:514069] Received Ready from iOSSimulator
+15:15:55.228 Xcode[7514:514069] Sending notification: NSConcreteNotification 0x7ff8d65a54b0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "532C83B0-CE5C-4898-BDFE-79201653112A";
+}}
+15:15:55.228 Xcode[7514:2680442] Simulator 532C83B0-CE5C-4898-BDFE-79201653112A was claimed by LaunchSessionClaim_0x7ff8d6aacd60
+15:15:55.228 Xcode[7514:2680442] 532C83B0-CE5C-4898-BDFE-79201653112A: Registered for sim device notification, got token 400
+15:15:55.228 Xcode[7514:2680444] 532C83B0-CE5C-4898-BDFE-79201653112A: Unregistering for sim device notification with token 400
+15:15:55.229 Xcode[7514:2680444] 532C83B0-CE5C-4898-BDFE-79201653112A: Installing app at path: /Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator/RSSFeedRead.app and options: (null)
+15:15:55.749 Xcode[7514:2680444] 532C83B0-CE5C-4898-BDFE-79201653112A: Installed app at path: /Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator/RSSFeedRead.app and options: (null)
+15:15:55.750 Xcode[7514:2680444] 532C83B0-CE5C-4898-BDFE-79201653112A: Launching app with identifier: com.sympatheticsoftware.RSSFeedRead and options: {
+    "activate_suspended" = 0;
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator:/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator:/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        XCInjectBundleInto = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator/RSSFeedRead.app/RSSFeedRead";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/sx/d_s7q1vj0db2t8jgx8w2xq8m0000gn/T/com.apple.dt.XCTest/IDETestRunSession-E23DAF6A-7CB8-4446-B6FD-94520970B612/RSSFeedReadTests-F6A77D58-E319-4D85-98D1-5ADD972AD7DB/LaunchSessions/DF856911-97DC-4691-93A3-FF0A5739F389/remote-container/tmp/RSSFeedReadTests-DF856911-97DC-4691-93A3-FF0A5739F389.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys001";
+    stdout = "/dev/ttys001";
+    "wait_for_debugger" = 1;
+}
+15:15:55.843 Xcode[7514:2680444] 532C83B0-CE5C-4898-BDFE-79201653112A: Launched app with identifier: com.sympatheticsoftware.RSSFeedRead (pid = 37129)
+15:15:55.843 Xcode[7514:2680444] Tracking pid 37129 for simulator <DVTiPhoneSimulator: 0x7ff8fd806d00> {
+		SimDevice: iPhone 8 Plus (532C83B0-CE5C-4898-BDFE-79201653112A, iOS 11.3, Booted)
+}
+15:15:55.843 Xcode[7514:2680444] Checking to see if pid 37129 is valid: kill(pid, 0) = 0 (YES, it's still running)
+15:15:55.843 Xcode[7514:2680444] Setting up DVTTaskNotifyOnProcDeath for pid 37129
+15:15:55.844 Xcode[7514:514069] Test process runnable PID is 37129.
+15:15:56.526 Xcode[7514:514069] Waiting for test process to check in..., will wait up to 120s
+15:15:56.933 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 493 bytes written out to StandardOutputAndStandardError
+15:15:56.999 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 114 bytes written out to StandardOutputAndStandardError
+15:15:57.100 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+15:15:57.334 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 260 bytes written out to StandardOutputAndStandardError
+15:15:57.434 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+15:15:57.498 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 416 bytes written out to StandardOutputAndStandardError
+15:15:57.499 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 852 bytes written out to StandardOutputAndStandardError
+15:15:57.499 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 840 bytes written out to StandardOutputAndStandardError
+15:15:57.499 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 140 bytes written out to StandardOutputAndStandardError
+15:15:57.500 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 280 bytes written out to StandardOutputAndStandardError
+15:15:57.500 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 140 bytes written out to StandardOutputAndStandardError
+15:15:57.500 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 140 bytes written out to StandardOutputAndStandardError
+15:15:57.503 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 150 bytes written out to StandardOutputAndStandardError
+15:15:57.513 Xcode[7514:2680447] Handling proxy channel request from test runner
+15:15:57.514 Xcode[7514:2680447] Test runner is ready, running protocol 25, requires at least version 8. Control framework is running 25 and requires at least 8
+15:15:57.514 Xcode[7514:514069] Test runner session successfully initiated.
+15:15:57.514 Xcode[7514:514069] Creating the daemon control session.
+15:15:57.514 Xcode[7514:514069] Whitelisting test process ID 37129
+15:15:57.514 Xcode[7514:2680444] Sim iPhone 8 Plus: Unregistering for sim device notification with token 401
+15:15:57.514 Xcode[7514:514069] Got authorization request for pid 37129
+15:15:57.514 Xcode[7514:2680444] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+15:15:57.515 Xcode[7514:2680444] Sim iPhone 8 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.ThtfNpkxpK/com.apple.testmanagerd.unix-domain.socket
+15:15:57.515 Xcode[7514:2680444] Validating test connection socket path (/private/tmp/com.apple.launchd.ThtfNpkxpK/com.apple.testmanagerd.unix-domain.socket)
+15:15:57.515 Xcode[7514:2680444] Constructing transport for test connection socket
+15:15:57.515 Xcode[7514:2680444] Connected socket 116 to testmanagerd for Sim iPhone 8 Plus
+15:15:57.515 Xcode[7514:2680446] Requesting authorization for pid 37129
+15:15:57.518 Xcode[7514:2680446] Got reply to authorization request for pid 37129 (result:error): 25: (null)
+15:15:57.518 Xcode[7514:514069] Got whitelisting response from test daemon. Success: 1
+15:15:57.518 Xcode[7514:514069] Registering/updating daemon-based crash report observer for process names (
+    XCTRunner,
+    RSSFeedRead,
+    xctest
+), report directories: (
+    "/Users/michael/Library/Logs/DiagnosticReports",
+    "/Library/Logs/DiagnosticReports"
+).
+15:13:52.433 testmanagerd[37095:2676437] XCIDESession is responsible for cleaning up its socket
+15:13:52.433 testmanagerd[37095:2677068] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fcebd60bf50> (socket 5) created Thursday, April 19, 2018 at 3:13:32 PM Pacific Daylight Time
+15:13:52.434 testmanagerd[37095:2677068] Tearing down <XCIDESession: 0x7fcebd60bf50> (socket 5) created Thursday, April 19, 2018 at 3:13:32 PM Pacific Daylight Time.
+15:13:52.434 testmanagerd[37095:2677068] Control session closed, will disconnect from matching testing client.
+15:13:52.434 testmanagerd[37095:2677068] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control sessions
+15:15:55.192 testmanagerd[37095:2677070] IDE connected over socket 5 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+15:15:55.192 testmanagerd[37095:2677070] Created session with socket 5
+15:15:55.193 testmanagerd[37095:2677070] Adding <XCIDESession: 0x7fcebf3012c0> (socket 5) created Thursday, April 19, 2018 at 3:15:55 PM Pacific Daylight Time to the set of unidentified IDE sessions
+15:15:55.193 testmanagerd[37095:2680448] Handled a proxy request from the IDE with session <XCIDESession: 0x7fcebf3012c0> (socket 5) created Thursday, April 19, 2018 at 3:15:55 PM Pacific Daylight Time proxy <_DTXProxy: 0x7fcebd405360>
+15:15:55.194 testmanagerd[37095:2676171] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke DF856911-97DC-4691-93A3-FF0A5739F389 1 5 from client D2750187-D370-4819-9FD3-DC7023F3E993-7514-000061B73940A121 (/Applications/Xcode.app)
+15:15:55.194 testmanagerd[37095:2676171] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke DF856911-97DC-4691-93A3-FF0A5739F389 Replied with protocol version 25
+15:15:55.194 testmanagerd[37095:2680448] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7fcebf3012c0> (socket 5) created Thursday, April 19, 2018 at 3:15:55 PM Pacific Daylight Time for client D2750187-D370-4819-9FD3-DC7023F3E993-7514-000061B73940A121 waiting to pair with test session DF856911-97DC-4691-93A3-FF0A5739F389 -> DF856911-97DC-4691-93A3-FF0A5739F389
+15:15:57.521 Xcode[7514:514069] Telling test runner to start executing tests.
+15:15:57.472 testmanagerd[37095:2677070] Received new test session connection from process with PID 37129
+15:15:57.473 testmanagerd[37095:2677070] Looking up app info for pid 37129
+15:15:57.475 testmanagerd[37095:2677066] Got app info for pid 37129: {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.sympatheticsoftware.RSSFeedRead";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 37129;
+    SBApplicationStateRunningReasonsKey =     (
+                {
+            SBApplicationStateRunningReasonAssertionIdentifierKey = "Deliver Message";
+            SBApplicationStateRunningReasonAssertionReasonKey = 10001;
+        },
+                {
+            SBApplicationStateRunningReasonAssertionIdentifierKey = Resume;
+            SBApplicationStateRunningReasonAssertionReasonKey = 10000;
+        }
+    );
+    SBMostElevatedStateForProcessID = 8;
+}
+15:15:57.475 testmanagerd[37095:2677070] Got request for process assertion for pid 37129.
+15:15:57.475 testmanagerd[37095:2677070] Created process assertion for pid 37129: <BKSProcessAssertion: 0x7fcebd403c20>, waiting for response from assertiond.
+15:15:57.475 testmanagerd[37095:2677070] Starting to monitor com.sympatheticsoftware.RSSFeedRead
+15:15:57.476 testmanagerd[37095:2680449] Got application state update: com.sympatheticsoftware.RSSFeedRead (37129) -> 8
+15:15:57.476 testmanagerd[37095:2677070] <XCTestSession: 0x7fcebd403190> -[XCTestSession applicationWithBundleID:didUpdatePID:andState:] com.sympatheticsoftware.RSSFeedRead 37129 8
+15:15:57.478 testmanagerd[37095:2677070] Got reply for process assertion request, success: YES
+15:15:57.479 testmanagerd[37095:2677070] Got reply for process assertion request, success: YES
+15:15:57.507 testmanagerd[37095:2677066] Test session DF856911-97DC-4691-93A3-FF0A5739F389 requested transport for IDE (-[XCTestSession _XCT_requestSerializedTransportWrapperForIDESessionWithIdentifier:reply:])
+15:15:57.507 testmanagerd[37095:2677070] Test session DF856911-97DC-4691-93A3-FF0A5739F389 requested serialized transport (-[XCTDaemon requestSerializedTransportForSessionIdentifier:reply:]_block_invoke)
+15:15:57.507 testmanagerd[37095:2677070] Initiating serialized transport handoff from IDE connection to test host.
+15:15:57.507 testmanagerd[37095:2677070] -[XCIDESession closeConnectionAndHandOffTransportWithCompletionHandler:] sending barrier
+15:15:57.507 testmanagerd[37095:2677066] Barrier flushed. Cancelling connection. Socket will not be closed
+15:15:57.507 testmanagerd[37095:2677070] DTXSocketTransport for socket 5 disconnected, owner is <XCIDESession: 0x7fcebf3012c0> (socket 5) created Thursday, April 19, 2018 at 3:15:55 PM Pacific Daylight Time for client D2750187-D370-4819-9FD3-DC7023F3E993-7514-000061B73940A121 waiting to pair with test session DF856911-97DC-4691-93A3-FF0A5739F389
+15:15:57.507 testmanagerd[37095:2677066] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fcebf3012c0> (socket 5) created Thursday, April 19, 2018 at 3:15:55 PM Pacific Daylight Time for client D2750187-D370-4819-9FD3-DC7023F3E993-7514-000061B73940A121 waiting to pair with test session DF856911-97DC-4691-93A3-FF0A5739F389
+15:15:57.508 testmanagerd[37095:2677066] Tearing down <XCIDESession: 0x7fcebf3012c0> (socket 5) created Thursday, April 19, 2018 at 3:15:55 PM Pacific Daylight Time for client D2750187-D370-4819-9FD3-DC7023F3E993-7514-000061B73940A121 waiting to pair with test session DF856911-97DC-4691-93A3-FF0A5739F389.
+15:15:57.508 testmanagerd[37095:2677066] Session summary: 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control sessions
+15:15:57.515 testmanagerd[37095:2677066] IDE connected over socket 6 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+15:15:57.515 testmanagerd[37095:2677066] Created session with socket 6
+15:15:57.516 testmanagerd[37095:2680449] Adding <XCIDESession: 0x7fcebd701910> (socket 6) created Thursday, April 19, 2018 at 3:15:57 PM Pacific Daylight Time to the set of unidentified IDE sessions
+15:15:57.516 testmanagerd[37095:2677070] Handled a proxy request from the IDE with session <XCIDESession: 0x7fcebd701910> (socket 6) created Thursday, April 19, 2018 at 3:15:57 PM Pacific Daylight Time proxy <_DTXProxy: 0x7fcebf025680>
+15:15:57.517 testmanagerd[37095:2677070] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 37129 25
+15:15:57.517 testmanagerd[37095:2676171] Adding control session <XCIDESession: 0x7fcebd701910> (socket 6) created Thursday, April 19, 2018 at 3:15:57 PM Pacific Daylight Time with protocol version 25
+15:15:57.519 testmanagerd[37095:2676171] Received request to collect crash reports in directories '/Users/michael/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'RSSFeedRead', 'xctest'
+15:15:57.519 testmanagerd[37095:2676171] Initializing crash report observer for /Users/michael/Library/Logs/DiagnosticReports
+15:15:57.519 testmanagerd[37095:2676171] Getting files in /Users/michael/Library/Logs/DiagnosticReports
+15:15:57.520 testmanagerd[37095:2676171] Found 4 files in /Users/michael/Library/Logs/DiagnosticReports
+15:15:57.520 testmanagerd[37095:2676171] Started monitoring /Users/michael/Library/Logs/DiagnosticReports
+15:15:57.520 testmanagerd[37095:2676171] Initializing crash report observer for /Library/Logs/DiagnosticReports
+15:15:57.520 testmanagerd[37095:2676171] Getting files in /Library/Logs/DiagnosticReports
+15:15:57.521 testmanagerd[37095:2676171] Found 62 files in /Library/Logs/DiagnosticReports
+15:15:57.521 testmanagerd[37095:2676171] Started monitoring /Library/Logs/DiagnosticReports
+15:15:57.619 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+15:15:57.466 RSSFeedRead[37129:2680682] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0930(9E135), modified on Monday, March 19, 2018 at 8:46:45 PM Pacific Daylight Time
+XCTest.framework bundle version: 14099
+15:15:57.468 RSSFeedRead[37129:2680682] System uptime: 1:06:03
+15:15:57.468 RSSFeedRead[37129:2680682] Process arguments: (
+    "/Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Bundle/Application/2607F99D-8B10-476A-BC13-DD292E55E8AD/RSSFeedRead.app/RSSFeedRead",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+15:15:57.468 RSSFeedRead[37129:2680682] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Data/Application/D400F036-73D3-49DD-BA64-A92D2DCF935A";
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.7uz2cENqXE/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator:/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator:/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Data/Application/D400F036-73D3-49DD-BA64-A92D2DCF935A";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.532C83B0-CE5C-4898-BDFE-79201653112A/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Library/Application Support/Simulator/extended_display.plist";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "RWI_LISTEN_SOCKET" = "/private/tmp/com.apple.launchd.3Tpd28d9pL/com.apple.webinspectord_sim.socket";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1524172194;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 8 Plus.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 8 Plus";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/michael";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/michael/Library/Logs/CoreSimulator/532C83B0-CE5C-4898-BDFE-79201653112A";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2208;
+    "SIMULATOR_MAINSCREEN_PITCH" = "461.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1242;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone10,5";
+    "SIMULATOR_PRODUCT_CLASS" = D21;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 15E217;
+    "SIMULATOR_RUNTIME_VERSION" = "11.3";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data";
+    "SIMULATOR_UDID" = "532C83B0-CE5C-4898-BDFE-79201653112A";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 518.19 - Device: iPhone 8 Plus - Runtime: iOS 11.3 (15E217) - DeviceType: iPhone 8 Plus";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.ThtfNpkxpK/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Data/Application/D400F036-73D3-49DD-BA64-A92D2DCF935A/tmp";
+    XCInjectBundleInto = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator/RSSFeedRead.app/RSSFeedRead";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/sx/d_s7q1vj0db2t8jgx8w2xq8m0000gn/T/com.apple.dt.XCTest/IDETestRunSession-E23DAF6A-7CB8-4446-B6FD-94520970B612/RSSFeedReadTests-F6A77D58-E319-4D85-98D1-5ADD972AD7DB/LaunchSessions/DF856911-97DC-4691-93A3-FF0A5739F389/remote-container/tmp/RSSFeedReadTests-DF856911-97DC-4691-93A3-FF0A5739F389.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.sympatheticsoftware.RSSFeedRead[0xc110][36027]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.532C83B0-CE5C-4898-BDFE-79201653112A";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator";
+}
+15:15:57.468 RSSFeedRead[37129:2680682] App Sandbox active: NO
+15:15:57.468 RSSFeedRead[37129:2680682] Loading test bundle at: file:///Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator/RSSFeedRead.app/PlugIns/RSSFeedReadTests.xctest/
+15:15:57.468 RSSFeedRead[37129:2680682] Finished loading test bundle
+15:15:57.469 RSSFeedRead[37129:2680682] Readying IDE session
+15:15:57.471 RSSFeedRead[37129:2680682] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+15:15:57.472 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60800001f170, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "Exchange protocol versions with daemon"
+)
+15:15:57.474 RSSFeedRead[37129:2680795] <XCTWaiter: 0x60800001f170, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:15:57.505 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60800001f170, state: XCTWaiterStateSucceeded> done waiting
+15:15:57.505 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60800001f170, state: XCTWaiterStateSucceeded> cleaning up Exchange protocol versions with daemon
+15:15:57.506 RSSFeedRead[37129:2680682] Got daemon protocol version 22
+15:15:57.506 RSSFeedRead[37129:2680682] Requesting IDE connection transport
+15:15:57.507 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60c00001df70, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "Transport for IDE session acquired"
+)
+15:15:57.507 RSSFeedRead[37129:2680797] Creating transport with received transport data
+15:15:57.508 RSSFeedRead[37129:2680811] <XCTWaiter: 0x60c00001df70, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:15:57.509 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60c00001df70, state: XCTWaiterStateSucceeded> done waiting
+15:15:57.510 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60c00001df70, state: XCTWaiterStateSucceeded> cleaning up Transport for IDE session acquired
+15:15:57.510 RSSFeedRead[37129:2680682] Creating connection with transport <DTXFileDescriptorTransport: 0x6000000ec780>
+15:15:57.512 RSSFeedRead[37129:2680682] Creating the proxy channel with connection <DTXConnection 0x6040001f7f00 : x1>
+15:15:57.512 RSSFeedRead[37129:2680682] Creating future for 'IDE session ready for test plan' with timeout 60.00
+15:15:57.513 RSSFeedRead[37129:2680682] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:25 minimumVersion:8
+15:15:57.513 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60400001e280, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "IDE session ready for test plan"
+)
+15:15:57.514 RSSFeedRead[37129:2680841] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+15:15:57.522 RSSFeedRead[37129:2680797] _IDE_startExecutingTestPlanWithProtocolVersion:25
+15:15:57.522 RSSFeedRead[37129:2680797] <XCTWaiter: 0x60400001e280, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:15:57.725 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60400001e280, state: XCTWaiterStateSucceeded> done waiting
+15:15:57.725 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60400001e280, state: XCTWaiterStateSucceeded> cleaning up IDE session ready for test plan
+15:15:57.729 Xcode[7514:514069] Starting test plan, clearing initialization timeout timer.
+15:15:57.729 RSSFeedRead[37129:2680682] Loading test suite...
+15:15:57.729 RSSFeedRead[37129:2680682] Finished loading test suite, took 0.000s
+15:15:57.730 RSSFeedRead[37129:2680682] -[XCTRunnerIDESession testBundleWillStart:]
+15:15:57.730 RSSFeedRead[37129:2680682] Running suite...
+15:15:57.730 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 63 bytes written out to StandardOutputAndStandardError
+15:15:57.730 RSSFeedRead[37129:2680682] -[XCTRunnerIDESession testSuiteWillStart:]
+15:15:57.731 Xcode[7514:514069] _XCT_testSuite:Selected tests didStartAt:2018-04-19 22:15:57 +0000
+objc[37129]: Class RSSRequest is implemented in both /Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Bundle/Application/2607F99D-8B10-476A-BC13-DD292E55E8AD/RSSFeedRead.app/RSSFeedRead (0x10ba97770) and /Users/michael/Projects/RSSFeedRead/DerivedData/RSSFeedRead/Build/Products/Debug-iphonesimulator/RSSFeedRead.app/PlugIns/RSSFeedReadTests.xctest/RSSFeedReadTests (0x1244aa098). One of the two will be used. Which one is undefined.
+2018-04-19 15:15:56.999098-0700 RSSFeedRead[37129:2680682] +[CATransaction synchronize] called within transaction
+2018-04-19 15:15:57.333135-0700 RSSFeedRead[37129:2680682] Documents Directory: file:///Users/michael/Library/Developer/CoreSimulator/Devices/532C83B0-CE5C-4898-BDFE-79201653112A/data/Containers/Data/Application/D400F036-73D3-49DD-BA64-A92D2DCF935A/Documents/
+2018-04-19 15:15:57.497721-0700 RSSFeedRead[37129:2680797] Error while trying to download an image: Error Domain=NSURLErrorDomain Code=-999 "cancelled" UserInfo={NSErrorFailingURLStringKey=https://www.personalcapital.com/blog/wp-content/uploads/2017/02/180214_blog_love.jpg, NSLocalizedDescription=cancelled, NSErrorFailingURLKey=https://www.personalcapital.com/blog/wp-content/uploads/2017/02/180214_blog_love.jpg}
+2018-04-19 15:15:57.497925-0700 RSSFeedRead[37129:2680798] Error while trying to download an image: Error Domain=NSURLErrorDomain Code=-999 "cancelled" UserInfo={NSErrorFailingURLStringKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180418_Blog_Crypto.jpg, NSLocalizedDescription=cancelled, NSErrorFailingURLKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180418_Blog_Crypto.jpg}
+2018-04-19 15:15:57.498049-0700 RSSFeedRead[37129:2680798] Error while trying to download an image: Error Domain=NSURLErrorDomain Code=-999 "cancelled" UserInfo={NSErrorFailingURLStringKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180409_Blog_Relationship.jpg, NSLocalizedDescription=cancelled, NSErrorFailingURLKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180409_Blog_Relationship.jpg}
+2018-04-19 15:15:57.498206-0700 RSSFeedRead[37129:2680798] Error while trying to download an image: Error Domain=NSURLErrorDomain Code=-999 "cancelled" UserInfo={NSErrorFailingURLStringKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180406_Blog_Report.jpg, NSLocalizedDescription=cancelled, NSErrorFailingURLKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180406_Blog_Report.jpg}
+2018-04-19 15:15:57.498464-0700 RSSFeedRead[37129:2680798] Error while trying to download an image: Error Domain=NSURLErrorDomain Code=-999 "cancelled" UserInfo={NSErrorFailingURLStringKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180417_Blog_Legacy.jpg, NSLocalizedDescription=cancelled, NSErrorFailingURLKey=https://www.personalcapital.com/blog/wp-content/uploads/2018/04/180417_Blog_Legacy.jpg}
+2018-04-19 15:15:57.498924-0700 RSSFeedRead[37129:2680811] Task <50699A4F-2DCD-40F8-AA71-B1F28A9073AB>.<3> finished with error - code: -999
+2018-04-19 15:15:57.499060-0700 RSSFeedRead[37129:2680811] Task <1F8CF9FE-6510-480B-8B3C-E30676FE9FA3>.<2> finished with error - code: -999
+2018-04-19 15:15:57.499268-0700 RSSFeedRead[37129:2680811] Task <785174C8-C797-4AC6-99CE-79482667CA90>.<5> finished with error - code: -999
+2018-04-19 15:15:57.499441-0700 RSSFeedRead[37129:2680811] Task <58AA9EDA-EBBE-498A-8F6B-EEF0E1DE18EC>.<1> finished with error - code: -999
+2018-04-19 15:15:57.499762-0700 RSSFeedRead[37129:2680811] Task <7011E516-C46F-4081-8123-EB318704F90E>.<4> finished with error - code: -999
+2018-04-19 15:15:57.503038-0700 RSSFeedRead[37129:2680798] Task <58AA9EDA-EBBE-498A-8F6B-EEF0E1DE18EC>.<1> HTTP load failed (error code: -999 [1:89])
+Test Suite 'Selected tests' started at 2018-04-19 15:15:57.730
+15:15:57.731 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 72 bytes written out to StandardOutputAndStandardError
+15:15:57.731 RSSFeedRead[37129:2680682] -[XCTRunnerIDESession testSuiteWillStart:]
+15:15:57.732 Xcode[7514:514069] _XCT_testSuite:RSSFeedReadTests.xctest didStartAt:2018-04-19 22:15:57 +0000
+Test Suite 'RSSFeedReadTests.xctest' started at 2018-04-19 15:15:57.731
+15:15:57.732 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 65 bytes written out to StandardOutputAndStandardError
+15:15:57.731 RSSFeedRead[37129:2680682] -[XCTRunnerIDESession testSuiteWillStart:]
+15:15:57.732 Xcode[7514:514069] _XCT_testSuite:RSSFeedReadTests didStartAt:2018-04-19 22:15:57 +0000
+Test Suite 'RSSFeedReadTests' started at 2018-04-19 15:15:57.731
+15:15:57.732 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 60 bytes written out to StandardOutputAndStandardError
+15:15:57.731 RSSFeedRead[37129:2680682] -[XCTRunnerIDESession testCaseWillStart:] RSSFeedReadTests testRSSItemParsing
+15:15:57.732 Xcode[7514:514069] _XCT_testCaseDidStartForTestClass:RSSFeedReadTests method:testRSSItemParsing
+Test Case '-[RSSFeedReadTests testRSSItemParsing]' started.
+15:15:57.733 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 177 bytes written out to StandardOutputAndStandardError
+15:15:57.732 RSSFeedRead[37129:2680682] -[XCTRunnerIDESession testCase:didFailWithDescription:inFile:atLine:]
+15:15:57.740 Xcode[7514:514069] _XCT_testCaseDidFailForTestClass:RSSFeedReadTests method:testRSSItemParsing withMessage:(([value isEqualToString:kLinkTest]) is true) failed file:/Users/michael/Projects/RSSFeedRead/RSSFeedReadTests/RSSFeedReadTests.m line:95
+15:15:57.733 RSSFeedRead[37129:2680682] -[RSSFeedReadTests testRSSItemParsing] started activity <XCActivityRecord: 0x60c000094af0> 2018-04-19 22:15:57 +0000: Assertion Failure: RSSFeedReadTests.m:95: (([value isEqualToString:kLinkTest]) is true) failed
+15:15:57.740 Xcode[7514:514069] -[RSSFeedReadTests testRSSItemParsing] will start activity 26240DD0-3E2B-43B5-9A15-9B81CDE8CADA:'Assertion Failure: RSSFeedReadTests.m:95: (([value isEqualToString:kLinkTest]) is true) failed'
+15:15:57.733 RSSFeedRead[37129:2680682] -[RSSFeedReadTests testRSSItemParsing] finished activity <XCActivityRecord: 0x60c000094af0> 2018-04-19 22:15:57 +0000: Assertion Failure: RSSFeedReadTests.m:95: (([value isEqualToString:kLinkTest]) is true) failed (0.000457048s)
+15:15:57.740 Xcode[7514:514069] -[RSSFeedReadTests testRSSItemParsing] did finish activity 26240DD0-3E2B-43B5-9A15-9B81CDE8CADA:'Assertion Failure: RSSFeedReadTests.m:95: (([value isEqualToString:kLinkTest]) is true) failed'
+15:15:57.734 RSSFeedRead[37129:2680682] -[XCTRunnerIDESession testCaseDidFinish:]
+15:15:57.740 Xcode[7514:514069] _XCT_testCaseDidFinishForTestClass:RSSFeedReadTests method:testRSSItemParsing withStatus:failed duration:0.002611994743347168
+15:15:57.735 RSSFeedRead[37129:2680682] -[XCTRunnerIDESession testSuiteDidFinish:]
+15:15:57.740 Xcode[7514:514069] _XCT_testSuite:RSSFeedReadTests didFinishAt:2018-04-19 22:15:57 +0000 runCount:1 withFailures:1 unexpected:0 testDuration:0.002611994743347168 totalDuration:0.003455996513366699
+15:15:57.735 RSSFeedRead[37129:2680682] Activity statistics for RSSFeedReadTests:
+15:15:57.735 RSSFeedRead[37129:2680682] 0.00s : Other
+15:15:57.735 RSSFeedRead[37129:2680682] Total time in activities: 0.00s
+15:15:57.735 RSSFeedRead[37129:2680682] -[XCTRunnerIDESession testSuiteDidFinish:]
+15:15:57.741 Xcode[7514:514069] _XCT_testSuite:RSSFeedReadTests.xctest didFinishAt:2018-04-19 22:15:57 +0000 runCount:1 withFailures:1 unexpected:0 testDuration:0.002611994743347168 totalDuration:0.004471063613891602
+15:15:57.736 RSSFeedRead[37129:2680682] Activity statistics for RSSFeedReadTests.xctest:
+15:15:57.736 RSSFeedRead[37129:2680682] 0.00s : Other
+15:15:57.736 RSSFeedRead[37129:2680682] Total time in activities: 0.00s
+15:15:57.736 RSSFeedRead[37129:2680682] -[XCTRunnerIDESession testSuiteDidFinish:]
+15:15:57.741 Xcode[7514:514069] _XCT_testSuite:Selected tests didFinishAt:2018-04-19 22:15:57 +0000 runCount:1 withFailures:1 unexpected:0 testDuration:0.002611994743347168 totalDuration:0.006060004234313965
+15:15:57.736 RSSFeedRead[37129:2680682] Activity statistics for Selected tests:
+15:15:57.736 RSSFeedRead[37129:2680682] 0.00s : Other
+15:15:57.736 RSSFeedRead[37129:2680682] Total time in activities: 0.00s
+15:15:57.737 RSSFeedRead[37129:2680682] Finished running suite.
+15:15:57.741 Xcode[7514:514069] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+15:15:57.737 RSSFeedRead[37129:2680682] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+15:15:57.737 RSSFeedRead[37129:2680682] Calling completion.
+15:15:57.737 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60c00001e420, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "IDE confirmed the end of session"
+)
+/Users/michael/Projects/RSSFeedRead/RSSFeedReadTests/RSSFeedReadTests.m:95: error: -[RSSFeedReadTests testRSSItemParsing] : (([value isEqualToString:kLinkTest]) is true) failed
+Test Case '-[RSSFeedReadTests testRSSItemParsing]' failed (0.003 seconds).
+Test Suite 'RSSFeedReadTests' failed at 2018-04-19 15:15:57.734.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'RSSFeedReadTests.xctest' failed at 2018-04-19 15:15:57.735.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.003 (0.004) seconds
+15:15:57.741 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 497 bytes written out to StandardOutputAndStandardError
+15:15:57.760 Xcode[7514:2680447] Closing socket 103 to testmanagerd for Sim iPhone 8 Plus
+15:15:57.814 Xcode[7514:514069] Test process exited with exit code 1
+15:15:57.820 Xcode[7514:514069] Claim LaunchSessionClaim_0x7ff8d6aacd60 on simulator 532C83B0-CE5C-4898-BDFE-79201653112A was relinquished
+15:15:57.820 Xcode[7514:514069] Claim LaunchSessionClaim_0x7ff8d6aacd60 on simulator 532C83B0-CE5C-4898-BDFE-79201653112A was relinquished
+15:15:57.741 RSSFeedRead[37129:2680847] <XCTWaiter: 0x60c00001e420, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:15:57.744 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60c00001e420, state: XCTWaiterStateSucceeded> done waiting
+15:15:57.745 RSSFeedRead[37129:2680682] <XCTWaiter: 0x60c00001e420, state: XCTWaiterStateSucceeded> cleaning up IDE confirmed the end of session
+15:15:57.748 testmanagerd[37095:2680845] Test process connection invalidated or interrupted, closing test session <XCTestSession: 0x7fcebd403190>.
+15:15:57.749 testmanagerd[37095:2677066] Closed <XCTestSession: 0x7fcebd403190>, removing from (
+    "<XCTestSession: 0x7fcebd403190>"
+)
+15:15:57.749 testmanagerd[37095:2677066] Tearing down <XCTestSession: 0x7fcebd403190>.
+15:15:57.749 testmanagerd[37095:2677066] XCTestSession is responsible for cleaning up its socket from an XCIDESession
+15:15:57.749 testmanagerd[37095:2677066] Tearing down <XCTDApplicationMonitor: 0x7fcebd402ed0>.
+15:15:57.749 testmanagerd[37095:2677066] Tearing down <XCTDProcessAssertionManager: 0x7fcebf201870>.
+15:15:57.750 testmanagerd[37095:2677066] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions
+15:15:57.750 testmanagerd[37095:2677066] Control sessions: (
+    "<XCIDESession: 0x7fcebd701910> (socket 6) created Thursday, April 19, 2018 at 3:15:57 PM Pacific Daylight Time"
+)
+15:15:57.882 Xcode[7514:514069] Got death notice for pid 37129, removing from SimulatorSessionMap
+Test Suite 'Selected tests' failed at 2018-04-19 15:15:57.736.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.003 (0.006) seconds
+15:15:57.949 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+15:15:58.074 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70> finished receiving data from <IDEConsoleAdaptor: 0x7ff901748b00 'target' stdin: (null) 0 stdout: (null) 0 stderr: (null) 0>
+15:15:58.074 Xcode[7514:514069] <IDETestOperationCoordinator: 0x7ff8d6295d70>: _considerFlushingDelegateBlockQueue - nothing to flush
+15:15:58.074 Xcode[7514:514069] _finishWithError:(null)

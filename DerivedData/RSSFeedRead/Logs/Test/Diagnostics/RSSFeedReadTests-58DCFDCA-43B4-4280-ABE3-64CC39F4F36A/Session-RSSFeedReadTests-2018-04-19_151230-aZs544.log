@@ -1,0 +1,8 @@
+15:12:30.993 Xcode[7514:514069] Beginning test session RSSFeedReadTests-049BA1FB-A6E4-4169-99EC-F4224D91CADC at 2018-04-19 15:12:30.993 with Xcode 9E145 on target <DVTiPhoneSimulator: 0x7ff8fd806d00> {
+		SimDevice: iPhone 8 Plus (532C83B0-CE5C-4898-BDFE-79201653112A, iOS 11.3, Booted)
+} (11.3 (15E217))
+15:12:30.993 Xcode[7514:514069] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+15:12:30.997 Xcode[7514:514069] Test standard output and standard error is at /var/folders/sx/d_s7q1vj0db2t8jgx8w2xq8m0000gn/T/com.apple.dt.XCTest/IDETestRunSession-17B672D2-5C8B-4C82-A946-0F7A7B646C07/RSSFeedReadTests-58DCFDCA-43B4-4280-ABE3-64CC39F4F36A/StandardOutputAndStandardError.txt
+15:12:30.998 Xcode[7514:514069] Simulator 532C83B0-CE5C-4898-BDFE-79201653112A was claimed by TestSessionClaim_IDETestRunSession-17B672D2-5C8B-4C82-A946-0F7A7B646C07
+15:12:31.735 Xcode[7514:514069] Test operation failure: Test operation was canceled.
+15:12:31.735 Xcode[7514:514069] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=14 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.}
